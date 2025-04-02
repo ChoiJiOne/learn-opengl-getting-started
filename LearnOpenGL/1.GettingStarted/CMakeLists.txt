@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.27)
+
+set(HELLO_WINDOW "02.HelloWindow")
+set(HELLO_TRIANGLE "03.HelloTriangle")
+set(SHADERS "04.Shaders")
+set(TEXTURES "05.Textures")
+set(TRANSFORMATIONS "06.Transformations")
+set(COORDINATE_SYSTEMS "07.CoordinateSystems")
+set(CAMERA "08.Camera")
+
+add_subdirectory(${HELLO_WINDOW})
+# add_subdirectory(${HELLO_TRIANGLE})
+# add_subdirectory(${SHADERS})
+# add_subdirectory(${TEXTURES})
+# add_subdirectory(${TRANSFORMATIONS})
+# add_subdirectory(${COORDINATE_SYSTEMS})
+# add_subdirectory(${CAMERA})
